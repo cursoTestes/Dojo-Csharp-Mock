@@ -1,0 +1,5 @@
+C:\Projects\Sistema-de-vendas\Sistema-de-vendas\bin\Debug\Sistema-de-vendas.exe
+C:\Projects\Sistema-de-vendas\Sistema-de-vendas\bin\Debug\Sistema-de-vendas.pdb
+C:\Projects\Sistema-de-vendas\Sistema-de-vendas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\Sistema-de-vendas\Sistema-de-vendas\obj\x86\Debug\Sistema-de-vendas.exe
+C:\Projects\Sistema-de-vendas\Sistema-de-vendas\obj\x86\Debug\Sistema-de-vendas.pdb

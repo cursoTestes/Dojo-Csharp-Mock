@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="04b7b0a9-d968-46d1-8187-10de6ec54a3d" name="cfc@CFC-WINDOWS 2012-01-12 11:10:17" runUser="cfc-windows\cfc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3b9a82e3-15c7-45ac-8b63-b7c16f2f4f55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cfc_CFC-WINDOWS 2012-01-12 11_10_17">
+      <DeploymentItem filename="C:\Projects\Sistema-de-vendas\Sistema-de-vendas\bin\Debug\Sistema-de-vendas.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T11:10:17.2101802-02:00" queuing="2012-01-12T11:10:17.2181806-02:00" start="2012-01-12T11:10:17.2831843-02:00" finish="2012-01-12T11:10:17.5451993-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Venda_de_2000_retorna_comissao_de_100" storage="c:\projects\sistema-de-vendas\vendasunittest\bin\debug\vendasunittest.dll" id="7bce876f-5d74-544e-639c-82b06b7ac400">
+      <Execution id="c2e45036-ed80-414d-b5a9-7c2468afe2ee" />
+      <TestMethod codeBase="C:/Projects/Sistema-de-vendas/VendasUnitTest/bin/Debug/VendasUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="VendasUnitTest.CalculoComissaoTest, VendasUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Venda_de_2000_retorna_comissao_de_100" />
+    </UnitTest>
+    <UnitTest name="Test_Venda_de_1000_retorna_comissao_de_50" storage="c:\projects\sistema-de-vendas\vendasunittest\bin\debug\vendasunittest.dll" id="c79919c6-9868-1b25-3728-8a3df4942894">
+      <Execution id="67d8a83f-6dda-4955-a623-8b26d382b604" />
+      <TestMethod codeBase="C:/Projects/Sistema-de-vendas/VendasUnitTest/bin/Debug/VendasUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="VendasUnitTest.CalculoComissaoTest, VendasUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Venda_de_1000_retorna_comissao_de_50" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7bce876f-5d74-544e-639c-82b06b7ac400" executionId="c2e45036-ed80-414d-b5a9-7c2468afe2ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c79919c6-9868-1b25-3728-8a3df4942894" executionId="67d8a83f-6dda-4955-a623-8b26d382b604" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c2e45036-ed80-414d-b5a9-7c2468afe2ee" testId="7bce876f-5d74-544e-639c-82b06b7ac400" testName="Test_Venda_de_2000_retorna_comissao_de_100" computerName="CFC-WINDOWS" duration="00:00:00.0348767" startTime="2012-01-12T11:10:17.2941850-02:00" endTime="2012-01-12T11:10:17.5191978-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2e45036-ed80-414d-b5a9-7c2468afe2ee">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;100&gt;. Actual:&lt;50&gt;. </Message>
+          <StackTrace>   em VendasUnitTest.CalculoComissaoTest.Test_Venda_de_2000_retorna_comissao_de_100() na C:\Projects\Sistema-de-vendas\VendasUnitTest\CalculoComissaoTest.cs:linha 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67d8a83f-6dda-4955-a623-8b26d382b604" testId="c79919c6-9868-1b25-3728-8a3df4942894" testName="Test_Venda_de_1000_retorna_comissao_de_50" computerName="CFC-WINDOWS" duration="00:00:00.0003282" startTime="2012-01-12T11:10:17.5201979-02:00" endTime="2012-01-12T11:10:17.5271983-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67d8a83f-6dda-4955-a623-8b26d382b604">
+    </UnitTestResult>
+  </Results>
+</TestRun>

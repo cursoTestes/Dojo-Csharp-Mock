@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="88450092-5fe6-48e8-9078-aed165c0118f" name="cfc@CFC-WINDOWS 2012-01-12 11:45:44" runUser="cfc-windows\cfc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3b9a82e3-15c7-45ac-8b63-b7c16f2f4f55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cfc_CFC-WINDOWS 2012-01-12 11_45_44">
+      <DeploymentItem filename="C:\Projects\Sistema-de-vendas\Sistema-de-vendas\bin\Debug\Sistema-de-vendas.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T11:45:44.2738412-02:00" queuing="2012-01-12T11:45:44.2808416-02:00" start="2012-01-12T11:45:44.3308445-02:00" finish="2012-01-12T11:45:44.6428623-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Venda_de_2000_retorna_comissao_de_100" storage="c:\projects\sistema-de-vendas\vendasunittest\bin\debug\vendasunittest.dll" id="7bce876f-5d74-544e-639c-82b06b7ac400">
+      <Execution id="1aa9698c-0bb3-4f91-a2c8-d0d1e1a9692a" />
+      <TestMethod codeBase="C:/Projects/Sistema-de-vendas/VendasUnitTest/bin/Debug/VendasUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="VendasUnitTest.CalculoComissaoTest, VendasUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Venda_de_2000_retorna_comissao_de_100" />
+    </UnitTest>
+    <UnitTest name="Test_Venda_de_10000_retorna_comissao_de_600" storage="c:\projects\sistema-de-vendas\vendasunittest\bin\debug\vendasunittest.dll" id="9c30f1c4-d5a3-be7f-3680-7a90a818e870">
+      <Execution id="c89adfa1-2f20-4177-a8d1-385790bf65ba" />
+      <TestMethod codeBase="C:/Projects/Sistema-de-vendas/VendasUnitTest/bin/Debug/VendasUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="VendasUnitTest.CalculoComissaoTest, VendasUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Venda_de_10000_retorna_comissao_de_600" />
+    </UnitTest>
+    <UnitTest name="Test_Venda_de_1000_retorna_comissao_de_50" storage="c:\projects\sistema-de-vendas\vendasunittest\bin\debug\vendasunittest.dll" id="c79919c6-9868-1b25-3728-8a3df4942894">
+      <Execution id="9312a70f-9e02-4aa1-a230-94dd32dddc6a" />
+      <TestMethod codeBase="C:/Projects/Sistema-de-vendas/VendasUnitTest/bin/Debug/VendasUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="VendasUnitTest.CalculoComissaoTest, VendasUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Venda_de_1000_retorna_comissao_de_50" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7bce876f-5d74-544e-639c-82b06b7ac400" executionId="1aa9698c-0bb3-4f91-a2c8-d0d1e1a9692a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c30f1c4-d5a3-be7f-3680-7a90a818e870" executionId="c89adfa1-2f20-4177-a8d1-385790bf65ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c79919c6-9868-1b25-3728-8a3df4942894" executionId="9312a70f-9e02-4aa1-a230-94dd32dddc6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1aa9698c-0bb3-4f91-a2c8-d0d1e1a9692a" testId="7bce876f-5d74-544e-639c-82b06b7ac400" testName="Test_Venda_de_2000_retorna_comissao_de_100" computerName="CFC-WINDOWS" duration="00:00:00.0238436" startTime="2012-01-12T11:45:44.3148436-02:00" endTime="2012-01-12T11:45:44.5268557-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aa9698c-0bb3-4f91-a2c8-d0d1e1a9692a">
+    </UnitTestResult>
+    <UnitTestResult executionId="c89adfa1-2f20-4177-a8d1-385790bf65ba" testId="9c30f1c4-d5a3-be7f-3680-7a90a818e870" testName="Test_Venda_de_10000_retorna_comissao_de_600" computerName="CFC-WINDOWS" duration="00:00:00.0203028" startTime="2012-01-12T11:45:44.5278558-02:00" endTime="2012-01-12T11:45:44.5538573-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c89adfa1-2f20-4177-a8d1-385790bf65ba">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;600&gt;. Actual:&lt;30&gt;. </Message>
+          <StackTrace>   em VendasUnitTest.CalculoComissaoTest.Test_Venda_de_10000_retorna_comissao_de_600() na C:\Projects\Sistema-de-vendas\VendasUnitTest\CalculoComissaoTest.cs:linha 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9312a70f-9e02-4aa1-a230-94dd32dddc6a" testId="c79919c6-9868-1b25-3728-8a3df4942894" testName="Test_Venda_de_1000_retorna_comissao_de_50" computerName="CFC-WINDOWS" duration="00:00:00.0002455" startTime="2012-01-12T11:45:44.5558574-02:00" endTime="2012-01-12T11:45:44.5608577-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9312a70f-9e02-4aa1-a230-94dd32dddc6a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
