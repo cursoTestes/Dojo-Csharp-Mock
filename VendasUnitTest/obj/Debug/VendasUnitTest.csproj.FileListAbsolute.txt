@@ -5,3 +5,6 @@ C:\Projects\Sistema-de-vendas\VendasUnitTest\bin\Debug\Sistema-de-vendas.pdb
 C:\Projects\Sistema-de-vendas\VendasUnitTest\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\Sistema-de-vendas\VendasUnitTest\obj\Debug\VendasUnitTest.dll
 C:\Projects\Sistema-de-vendas\VendasUnitTest\obj\Debug\VendasUnitTest.pdb
+C:\Projects\Sistema-de-vendas\VendasUnitTest\bin\Debug\Moq.dll
+C:\Projects\Sistema-de-vendas\VendasUnitTest\bin\Debug\Moq.pdb
+C:\Projects\Sistema-de-vendas\VendasUnitTest\bin\Debug\Moq.xml

@@ -34,6 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -45,14 +48,19 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepositorioVendas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CalculoComissaoTest.cs" />
+    <Compile Include="RoyaltiesTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sistema-de-vendas\Sistema-de-vendas.csproj">
       <Project>{324E79D8-0F9D-47ED-B698-F49BEC217A83}</Project>
       <Name>Sistema-de-vendas</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

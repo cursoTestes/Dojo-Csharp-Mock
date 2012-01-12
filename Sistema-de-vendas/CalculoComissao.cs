@@ -7,7 +7,7 @@ namespace Sistema.Vendas
 {
     public class CalculoComissao
     {
-        public Double calculaComissao(Double p)
+        public virtual Double calculaComissao(Double p)
         {
             var comissao = 0.0;
             if (p >= 0 && p < 10000)
