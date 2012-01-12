@@ -11,11 +11,11 @@
 
 
   <PropertyGroup>
-    <TestProjectDll>"$(MSBuildProjectDirectory)\VendasUnitTests\bin\Debug\VendasUnitTest.dll"</TestProjectDll>
+    <TestProjectDll>"$(MSBuildProjectDirectory)\VendasUnitTest\bin\Debug\VendasUnitTest.dll"</TestProjectDll>
   </PropertyGroup>
 
   <PropertyGroup>
-    <TestProjectResultFile>"$(MSBuildProjectDirectory)\VendasUnitTests\resultado.trx"</TestProjectResultFile>
+    <TestProjectResultFile>"$(MSBuildProjectDirectory)\VendasUnitTest\resultado.trx"</TestProjectResultFile>
   </PropertyGroup>
 
 
