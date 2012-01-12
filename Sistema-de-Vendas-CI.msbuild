@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="All">
+
+  <PropertyGroup>
+    <DeployDirectory>$(MSBuildProjectDirectory)..\..\..\bin</DeployDirectory>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MSTest>C:\Program Files\Microsoft Visual Studio 10.0\Common7\mstest.exe</MSTest>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+    <TestProjectDll>"$(MSBuildProjectDirectory)\VendasUnitTests\bin\Debug\VendasUnitTests.dll"</TestProjectDll>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TestProjectResultFile>"$(MSBuildProjectDirectory)\VendasUnitTests\resultado.trx"</TestProjectResultFile>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectFiles Include="**\*.csproj" Exclude="$(MSBuildProjectFile)"/>
+  </ItemGroup>
+
+  
+
+
+  <Target Name="Build">
+    <MSBuild Projects ="@(ProjectFiles)"
+             ContinueOnError ="false"
+             Targets="Rebuild">
+      <Output ItemName="BuildOutput" TaskParameter="TargetOutputs"/>
+    </MSBuild>
+
+    <Copy SourceFiles="@(BuildOutput)" DestinationFolder="$(DeployDirectory)" />
+
+  </Target>
+
+  <Target Name="Test">
+    <Exec Command="del $(TestProjectResultFile)" IgnoreExitCode="true" ContinueOnError="true" />
+    <Exec Command="mstest.exe /testcontainer:$(TestProjectDll) /resultsfile:$(TestProjectResultFile)" />
+  </Target>
+
+  <Target Name="All" DependsOnTargets="Build;Test">
+  </Target>
+
+</Project>
